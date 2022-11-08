@@ -20,61 +20,58 @@ class Movie(BaseModel):
 db.drop_tables(Movie)
 db.create_tables([Movie])
 
-halloween = Movie(name="Halloween", year="1978", kill_counts="10")
+first = Movie(name="Halloween", year="1978", kill_counts="10")
 
-halloween.save()
+first.save()
 
-halloween_II = Movie(name="Halloween II", year="1981", kill_counts="20")
+second = Movie(name="Halloween II", year="1981", kill_counts="20")
 
-halloween_II.save()
+second.save()
 
-halloween_III_Season_O_The_Witch = Movie(
-    name="Halloween III", year="1982", kill_counts="30")
+third = Movie(name="Halloween III", year="1982", kill_counts="30")
 
-halloween_III_Season_O_The_Witch.save()
+third.save()
 
-halloween_4_The_Return_Of_Michael_Myers = Movie(
-    name="Halloween 4: The Return of Michael Myers", year="1988", kill_counts="40")
+fourth = Movie(name="Halloween 4: The Return of Michael Myers",
+               year="1988", kill_counts="40")
 
-halloween_4_The_Return_Of_Michael_Myers.save()
+fourth.save()
 
-halloween_5_The_Revenge_Of_Michael_Myers = Movie(
-    name="Halloween 5: The Revenge of Michael Myers", year="1989", kill_counts="50")
+fifth = Movie(name="Halloween 5: The Revenge of Michael Myers",
+              year="1989", kill_counts="50")
 
-halloween_5_The_Revenge_Of_Michael_Myers.save()
+fifth.save()
 
-halloween_The_Curse_Of_Michael_Myers = Movie(
-    name="Halloween_The_Curse_Of_Michael_Myers", year="1995", kill_counts="60")
+sixth = Movie(name="Halloween_The_Curse_Of_Michael_Myers",
+              year="1995", kill_counts="60")
 
-halloween_The_Curse_Of_Michael_Myers.save()
+sixth.save()
 
-halloween_H20_20_Years_Later = Movie(
-    name="halloween_H20_20_Years_Later", year="1998", kill_count="70")
+seventh = Movie(name="halloween_H20_20_Years_Later",
+                year="1998", kill_count="70")
 
-halloween_H20_20_Years_Later.save()
+seventh.save()
 
-halloween_Resurrection = Movie(
-    name="Halloween Resurrection", year="2002", kill_count="80")
+eighth = Movie(name="Halloween Resurrection", year="2002", kill_count="80")
 
-halloween_Resurrection.save()
+eighth.save()
 
-halloween_2007 = Movie(name="Halloween 2007", year="2007", kill_count="90")
+ninth = Movie(name="HALLOWEEN", year="2007", kill_count="90")
 
-halloween_2007.save()
+ninth.save()
 
-halloween_II_2009 = Movie(name="Halloween II 2009",
-                          year="2009", kill_count="100")
+tenth = Movie(name="HALLOWEEN II", year="2009", kill_count="100")
 
-halloween_II_2009.save()
+tenth.save()
 
-halloween_2018 = Movie(name="Halloween 2018", year="2018", kill_count="110")
+eleventh = Movie(name="Halloween 2018", year="2018", kill_count="110")
 
-halloween_2018.save()
+eleventh.save()
 
-halloween_Kills = Movie(name="Halloween Kills", year="2021", kill_count="120")
+twelfth = Movie(name="Halloween Kills", year="2021", kill_count="120")
 
-halloween_Kills.save()
+twelfth.save()
 
-halloween_Ends = Movie(name="Halloween Ends", year="2022", kill_count="130")
+thirteenth = Movie(name="Halloween Ends", year="2022", kill_count="130")
 
-halloween_Ends.save()
+thirteenth.save()
