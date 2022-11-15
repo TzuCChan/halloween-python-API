@@ -14,6 +14,7 @@ class BaseModel(Model):
 class Movie(BaseModel):
     name = CharField()
     year = CharField()
+    director = CharField()
     kill_counts = CharField()
 
 
